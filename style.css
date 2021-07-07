@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Yellowtail&display=swap');
+
+*{
+    font-family: 'Yellowtail', cursive;
+    letter-spacing: 3px;
+}
+
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 23px;
+    margin:0px;
+    width: 100%;
+}
+
+#start, #no_of_objects, #status{
+    font-size: 18px;
+}
+
+.btn-default{
+    background-color: rebeccapurple;
+    color: pink;
+    width: 100px;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 2;
+    text-align: center;
+    background-color: #ff8c00;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+canvas{
+    border: 2px;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 10px 10px 10px grey;
+}
